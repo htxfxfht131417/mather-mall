@@ -280,8 +280,7 @@ a{
 }
 /*-----------------main-------------------*/
 .main{
-	
-	height:1400px;
+	height:2900px;
 	width: 1000px;
 	margin: 20px auto;
 }
@@ -465,10 +464,95 @@ a{
 .milk-container{
 	height: 355px;
 	width: 760px;
-	background:pink;
+	margin-bottom: 10px;
 }
 .goods{
+	margin: 0 6px;
+	float: left;
 	height: 355px;
 	width: 178px;
-	background: palegreen;
+}
+.milk-container .goods .goods-img{
+	height:178px ;
+	width:178px;
+}
+.milk-container .goods .goods-img img{
+	height:178px ;
+	width:178px;
+}
+.milk-container .title{
+	height: 58px;
+	width:178px;
+	border-bottom: 1px solid grey;
+}
+.milk-container .title h5{
+	font-size: 15px;
+	height: 58px;
+	line-height: 58px;
+	text-align: center;
+    color: brown;
+}
+.milk-container .detail{
+	height: 36px;
+	width:178px;
+	border-bottom: 1px solid grey;
+}
+.milk-container .detail h6{
+	font-size: 14px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+    color: brown;color: black;
+	font-weight: normal;
+}
+/*-----------------------footer-------------------------------*/
+.footer{
+	overflow: hidden;
+	height:320px;
+	width:1000px;
+    margin: 0 auto;
+	background:ghostwhite;
+}
+.footer .footer-left{
+	height: 300px;
+	width: 730px;
+	margin: 5px;
+	float: left;
+}
+.footer .footer-left .left-one {
+	height: 60px;
+	width: 730px;
+}
+.footer .footer-left .left-one .a{
+	height: 50px;
+	width: 120px;
+	line-height: 50px;
+	text-align:center ;
+	font-size: 8px;
+	float: left;
+}
+.footer .footer-left .left-one .b{
+	height: 40px;
+	width: 140px;
+	float: left;
+}
+.footer .footer-left .left-one .c{
+	height: 40px;
+	width: 140px;
+	float: left;
+}
+.footer .footer-left .left-one img{
+	height: 100%;
+	width: 100%;
+	
+}
+
+
+
+.footer .footer-right{
+	height:300px;
+	width:240px;
+	background: pink;
+	float: right;
+	margin-top: 5px;
 }
