@@ -354,14 +354,13 @@ a{
 }
 /*---------------------main右侧---------------------*/
 .main .main_r{
-	height: 1800px;
 	width: 760px;
 	margin-left: 30px;
 	float: left;
 }
 .swiper-container{
     width: 760px;
-    height: 420px;
+
     text-align: center;
 }
 /*-----小轮播图-----------------------*/
@@ -403,4 +402,73 @@ a{
 	opacity: 0.4;
 	top: 50px;
 	right: 0;
+}
+/*--------------w家专题推荐部分----------------*/
+.w-h{
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	width: 760px;
+	padding: 10px 0;
+}
+.w-h h2{
+	color: gray;
+}
+.w-img{
+	border-bottom: 1px solid grey;
+	height: 100px;
+	width: 760px;
+}
+.w-img img{
+	height: 73px;
+	width: 100px;
+	margin-left: 4px;
+	
+}
+/*----------------更多推荐--------------*/
+.more{
+	height: 40px;
+	width: 760px;
+		padding: 10px 0;
+}
+.more h3{
+	opacity: 0.7;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+}
+/*-----------图片 前往购买区------------*/
+.buy-con{
+	height:420px;
+	width: 760px;
+}
+.buy{
+	height:200px ;
+	width: 370px;
+	float: left;
+	margin: 5px 5px;
+}
+.buy img{
+	display: block;
+}
+/*--------大牌来啦----宝宝奶粉---------*/
+.milk{
+	height: 50px;
+	width: 760px;
+	padding: 10px 0;
+}
+.milk h2{
+	opacity: 0.7;
+	height: 50px;
+	text-align: center;
+}
+.milk-container{
+	height: 355px;
+	width: 760px;
+	background:pink;
+}
+.goods{
+	height: 355px;
+	width: 178px;
+	background: palegreen;
 }
