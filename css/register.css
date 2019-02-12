@@ -1,0 +1,219 @@
+.user{
+	height:508px;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.have{
+	height: 288px;
+	width: 333px;
+	margin-left: 20px;
+	float: left;
+}
+.have-num{
+	width: 333px;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	background: gainsboro;
+	font-size: 13px;
+	color: black;
+	font-weight: bold;
+}
+.have-num span{
+	display: block;
+	margin-left: 10px;
+}
+.have-number{
+	width: 333px;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	font-size: 12px;
+	color:grey;
+}
+.input-wrapper{
+	height: 40px;
+	width: 333px;
+	position: relative;
+	margin-top: 20px;
+}
+ .have .input-wrapper input{
+	height: 40px;
+	width: 323px;
+	position: relative;
+	padding-left: 10px;
+}
+.have .input-wrapper label{
+	font-size: 14px;
+	position: absolute;
+	top: 10px;
+	color: darkgray;
+	padding-left: 10px;
+	left: 16px;
+}
+
+.input-wrap{
+	height: 40px;
+	width: 333px;
+	position: relative;
+	margin-top: 20px;
+}
+ .have .input-wrap input{
+	height: 40px;
+	width: 323px;
+	position: relative;
+	padding-left: 10px;
+}
+.have .input-wrap label{
+	font-size: 14px;
+	position: absolute;
+	top: 10px;
+	color: darkgray;
+	padding-left: 10px;
+	left: 16px;
+}
+.no a{
+	text-decoration: underline;
+	font-size: 12px;
+	display: block;
+	margin: 14px  0px;
+}
+.have button{
+	height: 40px;
+	width: 70px;
+	background:#bc0e5e;
+	color: white;
+	border: none;
+}
+
+.new-user{
+	height: 560px;
+	width: 610px;
+	float: right;
+	margin-right: 20px;
+}
+.new-user .n{
+	height: 40px;
+	width: 600px;
+	background: gainsboro;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	font-size: 13px;
+	color: black;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.new-user .w{
+	height: 40px;
+    width: 250px;
+    position: relative;
+    margin-top: 20px;
+}
+ .new-user .w input{
+	height: 40px;
+	width: 250px;
+	position: relative;
+	padding-left: 10px;
+}
+.new-user .w label{
+	font-size: 14px;
+	position: absolute;
+	top: 10px;
+	color: darkgray;
+	padding-left: 10px;
+	left: 16px;
+}
+.new-user .r{
+	height: 40px;
+    width: 250px;
+    position: relative;
+    margin-top: 20px;
+}
+ .new-user .r input{
+	height: 40px;
+	width: 250px;
+	position: relative;
+	padding-left: 10px;
+}
+.new-user .r label{
+	font-size: 14px;
+	position: absolute;
+	top: 10px;
+	color: darkgray;
+	padding-left: 10px;
+	left: 16px;
+}
+
+
+
+.new-user .p{
+	height: 40px;
+    width: 250px;
+    position: relative;
+    margin-top: 20px;
+}
+ .new-user .p input{
+	height: 40px;
+	width: 250px;
+	position: relative;
+	padding-left: 10px;
+}
+.new-user .p label{
+	font-size: 14px;
+	position: absolute;
+	top: 10px;
+	color: darkgray;
+	padding-left: 10px;
+	left: 16px;
+}
+.must{
+	font-size: 13px;
+	margin: 14px  0px;
+	color: grey;
+}
+.word{
+	width: 250px;
+	font-size: 12px;
+	margin: 10px 0;
+}
+.check{
+	height: 20px;
+	width: 250px;
+	line-height: 20px;
+	text-align: left;
+}
+.check .input{
+	height: 16px;
+	width: 16px;
+}
+.check span{
+	font-size: 12px;
+	color: #bc0e5e;
+	font-weight: bold;
+}
+.duan{
+	width: 250px;
+	font-size: 12px;
+	margin: 10px 0;
+}
+.new-user button{
+	height: 40px;
+	width: 90px;
+	background:#bc0e5e;
+	color: white;
+	border: none;
+}
+.o{
+	height: 280px;
+	width: 320px;
+	margin-top: -390px;
+	margin-left: 290px;	
+	color: #bc0e5e;
+	font-weight: bold;
+}
+.o p{
+	font-size: 14px;
+	margin-bottom: 10px;
+}

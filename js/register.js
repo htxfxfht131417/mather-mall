@@ -1,0 +1,30 @@
+$(".inp").click(function(){
+	$(".lab").css({
+		top:"-10px",
+		background:"white"
+	})
+})
+$(".pwd").click(function(){
+	$(".lab-a").css({
+		top:"-10px",
+		background:"white"
+	})
+})
+$(".a").click(function(){
+	$(".lab-b").css({
+		top:"-10px",
+		background:"white"
+	})
+})
+$(".r").click(function(){
+	$(".lab-c").css({
+		top:"-10px",
+		background:"white"
+	})
+})
+$(".p").click(function(){
+	$(".lab-d").css({
+		top:"-10px",
+		background:"white"
+	})
+})

@@ -1,0 +1,314 @@
+.select{
+	height: 40px;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 6px;
+}
+.select ul li{
+	margin-right: 10px;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 12px;
+	color: gray;
+}
+.content{
+	height: 600px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.content .left{
+	height:600px;
+	width: 375px;
+	float: left;
+}
+.container-m{
+	height: 450px;
+	width: 375px;
+	position: relative;
+}
+.wrap-small-m{
+	background: white;
+	height: 450px;
+	width: 375px;
+	overflow: hidden;
+	left: 0;
+	top:0;
+}
+.wrap-small-m img{
+	width: 266px;
+	height: 370px;
+	margin: 40px 65px;
+}
+.wrap-small-m .patch{
+	height: 450px;
+	width: 375px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+.wrap-small-m .focus{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	background: darkgray;
+	opacity: 0.3;
+	top: 0;
+	left: 0;	
+	display: none;			
+}
+.wrap-small-m .img{
+	height: 100%;
+	width: 100%;
+}
+.wrap-choice-m{
+	height: 66px;
+	width: 375px;	
+}
+.wrap-choice-m img{
+	height: 55px;
+	width:40px ;
+	margin-left: 10px;
+	margin-right: 17px;
+}
+.wrap-big-m{
+	height: 600px;
+	width: 500px;
+	position: absolute;
+	right: -510px;
+	border: 1px solid #CCCCCC;
+	overflow: hidden;
+	display: none;
+	top: 0;
+}
+.wrap-big-m img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.content .mid{
+	height: 400px;
+	width: 375px;
+	border-right: 1px solid gainsboro;
+	float: left;
+}
+.content .mid .title{
+	height: 72px;
+	width: 375px;
+}
+.content .mid .about{
+	height: 20px;
+	width: 375px;
+}
+.content .mid .about p{
+	display: block;
+	float: left;
+	font-size: 13px;
+}
+.content .mid .about a{
+	text-decoration: underline;
+	display: block;
+	float: left;
+	margin-left: 8px;
+	font-size: 13px;
+}
+.content .mid .s{
+	margin-top: 10px;
+	height: 40px;
+	width: 375px;
+}
+.content .mid .s .s-l{
+	height: 36px;
+	width: 122px;
+	line-height: 36px;
+	text-align: center;
+	float: left;
+	border: 1px solid gray;
+}
+.content .mid .s .s-l a{
+	font-size: 13px;
+}
+.content .mid .s .s-r{
+	margin-left: 10px;
+	height: 36px;
+	width: 122px;
+	line-height: 36px;
+	text-align: center;
+	float: left;
+	border: 1px solid gray;
+}
+.content .mid .s .s-r a{
+	font-size: 13px;
+}
+.content .mid .s #active{
+	border: 1px solid #bc0e5e;
+}
+.content .mid .mouth{
+	height: 80px;
+	width: 362px;
+	border: 1px solid #808080;
+	margin-top: 20px;
+}
+
+.content .mid .mouth .tu{
+	margin-top: 15px;
+	height: 45px;
+	width: 93px;
+	float: left;
+}
+.content .mid .mouth .tu img{
+    height:45px;
+    width: 33px;
+    margin-left: 30px;
+}
+.content .mid .mouth .p{
+	height:80px;
+	width: 186px;
+	float: left;
+}
+.content .mid .mouth .yuan{
+	height:60px;
+	width: 83px;
+	float: left;
+	margin-top: 5px;
+}
+.content .mid .mouth a{
+	font-size: 12px;
+	color: grey;
+}
+.content .mid .mouth .line a{
+   text-decoration: line-through;
+   color: gainsboro;
+}
+.content .mid .mouth .line , .h , .now{
+	margin-left: 20px;
+}
+.content .mid .mouth .now a{
+	color: #bc0e5e;
+	font-weight: bold;
+	font-size: 13px;
+}
+.content .mid #active{
+	border: 1px solid #bc0e5e;
+}
+
+.content .right{
+	height: 600px;
+	width: 249px;
+	float: left;
+}
+.content .right .yuan{
+	height: 30px;
+	width: 249px;
+	height: 30px;
+	text-align: left;
+	line-height: 30px;
+	color: #bc0e5e;
+	font-weight: bold;
+	margin-left: 20px;
+	font-size: 16px;
+}
+.content .right p{
+	color: darkgray;
+	margin-left: 20px;
+	font-size: 13px;
+}
+label{
+	margin-top: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 13px;
+	color: gray;
+}
+.content .right .ss{
+	margin-top: 10px;
+	margin-left: 15px;
+	height: 40px;
+	width:60px;
+}
+.content .right .ss option{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width:60px;
+}
+
+.content .right button{
+	margin-top: 20px;
+	margin-left: 15px;
+	height: 45px;
+	width: 170px;
+	background:  #bc0e5e;
+	color: white;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+.content .right .btn{
+	cursor: pointer;
+	margin-top: 20px;
+	margin-left: 15px;
+	height: 45px;
+	width: 170px;
+	background:darkseagreen;
+	color: white;
+	border: none;
+	font-weight: bold;
+}
+.content .right .time p{
+	display: block;
+	margin-top: 10px;
+	margin-left: 15px;
+	color: black;
+}
+
+
+
+
+
+
+
+.det{
+	height: 40px;
+	width: 1000px;
+	margin: 0 auto;
+	line-height: 40px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.det h2{
+	height: 40px;
+	width: 100px;
+	color: gray;
+	border-bottom: 2px solid #bc0e5e;
+}
+.det-milk{
+	margin-top: 20px;
+	width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+.show{
+	margin-top: 20px;
+	width: 1000px;
+	height: 20px;
+	margin: 0 auto;	
+	border-top: 1px solid gainsboro;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.show div{
+	height: 40px;
+	width: 84px;
+	margin-left: 420px;
+}
+.show a{
+	margin-top: -13px;
+	display:block;
+	background: white;
+	font-size: 13px;
+	color: gray;
+}
