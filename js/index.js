@@ -10,6 +10,7 @@ $(".container .five_a").mouseout(function(){
 	$(".five").css({
 		background : "white"
 	})
+	
 
 	$(".container .wrap")
 	.hide()	   
