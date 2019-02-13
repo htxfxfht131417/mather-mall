@@ -409,13 +409,15 @@ label{
 }
 .main .item{
 	height: 347px;
-	width: 248px;
+	width: 246px;
 	float: left;
 	margin: 10px 0;
+	border: 1px solid white;
+	
 }
-/*.main .item:hover{
+.main .item:hover{
 	border: 1px solid gainsboro;
-}*/
+}
 .main .item .tu{
 	height: 200px;
 	width: 250px;
