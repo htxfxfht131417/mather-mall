@@ -331,7 +331,7 @@ input{outline:medium;}
 /*------------n鼠标移入nav时，li对应的内容显示-------------*/
 .nav .nav_bottom{
 	margin-top: 62px;
-	height:315px ;
+	height:315px;
 	width: 998px;
 	position: absolute;
 	border: 1px solid gainsboro;	
