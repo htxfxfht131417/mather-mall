@@ -328,81 +328,63 @@ input{outline:medium;}
 	border: 1px solid gainsboro;	
 	display: none;
 }
+.tu{
+	height: 271px;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.tu img{
+	height: 100%;
+	width: 100%;
+}
 
-
-.com{
+.h{margin: 0 auto;
 	height: 40px;
+	width: 1000px;
 	line-height: 40px;
-	text-align: left;
-	font-size: 14px;
-	width: 1000px;
-	margin: 0 auto;
-	margin-top: 20px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: gray;
 }
-.ban{
-	height:270px;
+.con{
+	height: 241px;
 	width: 1000px;
 	margin: 0 auto;
+}
+.con .con-a , .con-b , .con-c , .con-d{
+	height: 241px;
+	width: 241px;
+	float: left;
+	background: gainsboro;
+}
+.con .con-b , .con-c , .con-d{
+	margin-left: 12px;
+}
+.main1{
+	height: 266px;
+	width: 1000px;
+	margin:0 auto;
+}
+.main1 .main-a{
+	margin-top: 20px;
+	height: 266px;
+	width: 494px;
+	float: left;
 	margin-bottom: 20px;
 }
-
-.ban .img{
-	height: 100%;
-	width: 100%;
-}
-.nav-list-a{
-	height:76px;
-	width: 1000px;
-	margin: 0 auto;
-	margin-bottom: 20px;
-}
-.nav-list-a ul li{
-	height: 76px;
-	width: 142.8px;
-	float: left;
-}
-.nav-list-a ul{
-	height: 76px;
-	width: 1000px;
-}
-.nav-list-a ul li img{
-	display: block;
-	height: 100%;
-	width: 100%;
-}
-
-.sel{
+.main1 .main-b{
 	margin-top: 20px;
-	height: 60px;
-	width: 1000px;
-	margin: 0 auto;
-}
-.sel .sp{
-	height: 60px;
-	width: 400px;
-	text-align: left;
-	line-height: 60px;
-	font-size: 14px;
-	color: gray;	
+	margin-bottom: 20px;
+	height: 266px;
+	width: 494px;
 	float: left;
+	margin-left: 12px;
 }
-.sel .opt{
-	height: 60px;
-	line-height: 60px;
-	text-align: left;
-	width: 300px;
-	float: left;
-}
-label{
-	font-size: 15px;
-}
-.sel .opt select{
-	height: 30px;
-	width: 150px;
-}
-/*--------------item------------start-----*/
 .main{
-/*	height: 3000px;*/
+	height: 1600px;
 	width: 1000px;
 	margin: 0 auto;
 
@@ -446,21 +428,6 @@ label{
 	font-weight: bold;
 	
 }
-.logo .r .r_b  a span{
-	display: block;
-	font-size: 12px;	
-	margin-top: 5px;
-	margin-left: 5px;
-	color:slategray;
-	margin-top: 15px;
-}
-.logo .num{
-	margin-left: 16px;
-	margin-top: -32px;
-	color:#bc0e5e ;
-	font-weight: bold;
-	font-size: 18px;
-}
 .main .item .cl{
 	height: 20px;
 	width: 250px;
@@ -495,15 +462,53 @@ label{
 	width:84px;
 	margin: 20px 80px;
 }
-
-
-
-
-
-
-
-
-/*----------item-----------------end---------*/
+.year{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-top: 50px;
+	width: 1000px;
+	margin: 0 auto;
+	height: 282px;
+	margin-top: 20px;
+}
+.year .year-a , .year-b{
+	height: 282px;
+	width: 490px;
+	float: left;
+}
+.year .year-b{
+	margin-left: 20px;	
+}
+.year .year-b h2{
+	color: dimgray;
+	
+}
+.year .year-b p{
+	margin-top: 20px;
+	font-size: 13px;
+	color: gray;
+	font-weight: 100;
+}
+.year .year-b p a{
+	color: cornflowerblue;
+	font-size: 14px;
+	text-decoration: underline;
+	padding-top: 10px;
+}
+.content-detail{
+	width: 1000px;
+	margin: 0 auto;
+	height: 550px;
+}
+.content-detail p{
+	margin-top: 13px;
+	font-size: 13px;
+	color: gray;
+}
+.content-detail h2 , h3 , h4{
+	margin-top: 20px;
+	color: gray;
+}
 
 .footer{
 	overflow: hidden;
@@ -605,6 +610,21 @@ label{
 	height: 50px;
 	width: 700px;
 }
+.logo .r .r_b  a span{
+	display: block;
+	font-size: 12px;	
+	margin-top: 5px;
+	margin-left: 5px;
+	color:slategray;
+	margin-top: 15px;
+}
+.logo .num{
+	margin-left: 16px;
+	margin-top: -32px;
+	color:#bc0e5e ;
+	font-weight: bold;
+	font-size: 18px;
+}
 .footer .footer-left .left-four a{
 	font-size: 14px;
 	color: black;
@@ -670,3 +690,4 @@ label{
 	width: 36px;
     padding-left: 16px;
 }
+

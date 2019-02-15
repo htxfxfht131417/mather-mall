@@ -20,6 +20,36 @@
 	color: black;
 	font-weight: bold;
 }
+.logo .r .r_b  a span{
+	display: block;
+	font-size: 12px;	
+	margin-top: 5px;
+	margin-left: 5px;
+	color:slategray;
+	margin-top: 15px;
+}
+.logo .r .r_b  a span{
+	display: block;
+	font-size: 12px;	
+	margin-top: 5px;
+	margin-left: 5px;
+	color:slategray;
+	margin-top: 15px;
+}
+.logo .num{
+	margin-left: 16px;
+	margin-top: -32px;
+	color:#bc0e5e ;
+	font-weight: bold;
+	font-size: 18px;
+}
+.logo .num{
+	margin-left: 16px;
+	margin-top: -32px;
+	color:#bc0e5e ;
+	font-weight: bold;
+	font-size: 18px;
+}
 .have-num span{
 	display: block;
 	margin-left: 10px;

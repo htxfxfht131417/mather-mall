@@ -191,6 +191,7 @@ a{
   display: inline;
   }
 input{outline:medium;}
+
 /*------------搜索框----------*/
 .logo .r{
 	margin-left: 50px;
@@ -217,6 +218,7 @@ input{outline:medium;}
 	width: 18px;
 	margin-left: 10px;
 }
+
 .logo .r .r_b{
 	margin-top: 7px;
 	height: 70px;
@@ -239,7 +241,14 @@ input{outline:medium;}
 	margin-top: 5px;
 	margin-left: 5px;
 	color:slategray;
-	margin-top: 7px;
+	margin-top: 15px;
+}
+.logo .num{
+	margin-left: 16px;
+	margin-top: -32px;
+	color:#bc0e5e ;
+	font-weight: bold;
+	font-size: 18px;
 }
 /*-----------------导航------------------*/
 .nav{
