@@ -778,7 +778,9 @@
     		<div class="price">1.9$</div>
     		<div class="sale">Sale:18%</div>
     		<div class="kg">1kg每0.18</div>
-    	</div><div class="item">
+    	</div>
+    	
+    	<div class="item">
     		<div class="tu-a">
     			<img src="https://static.windeln.com.cn/windeln-media/aa/26/f6/e4/55c259ade4b09205e4f626aa.230x230.jpg" />
     		</div>
@@ -1058,3 +1060,44 @@
 </div>
 	</body>
 </html>
+<script>
+	var str = "";
+	var item = {
+	     img : "static.windeln.com.cn/windeln-media/89/9e/f5/e4/55c25952e4b09205e4f59e89.230x230.jpg",
+	     title : "喜宝有机奶粉",
+	     cl : "9个品种",
+	     price : "7.1$",
+	     sale : "Sale:-28%",
+	     kg : "1kg每9.18"
+	     
+	}
+	var main = document.getElementsByClassName("main");
+	console.log(main);
+	
+	for(var i= 0; i < 8 ; i++){
+		str += `
+			<div class="item">
+	    		<div class="tu">
+	    			<img src=${item.img} />
+	    		</div>
+	    		<div class="title">${item.title}</div>
+	    		<div class="cl">${item.cl}</div>
+	    		<div class="price">${item.price}</div>
+	    		<div class="sale">${item.sale}</div>
+	    		<div class="kg">${item.kg}</div>
+	    	</div>
+    	`;
+	}
+	main.innerHTML = str;
+	
+	/*<div class="item">
+    		<div class="tu">
+    			<img src="img/it14.jpg" />
+    		</div>
+    		<div class="title"><b>Hello</b>喜宝有机奶粉</div>
+    		<div class="cl">9个品种</div>
+    		<div class="price">7。1$</div>
+    		<div class="sale">Sale:-28%</div>
+    		<div class="kg">1kg每9.18</div>
+    	</div>*/
+</script>

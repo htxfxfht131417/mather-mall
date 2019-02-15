@@ -115,6 +115,7 @@
 	background:#bc0e5e;
 	color: white;
 	border: none;
+	cursor: pointer;
 }
 
 .new-user{
@@ -234,6 +235,7 @@
 	background:#bc0e5e;
 	color: white;
 	border: none;
+	cursor: pointer;
 }
 .o{
 	height: 280px;
